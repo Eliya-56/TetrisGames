@@ -26,7 +26,6 @@ export default class SnakeGame {
     configure() {
         this._score = new Score(this._engine);
         this._score.init();
-        this._engine.setHeaderText(`Score: ${this._score}`);
         this._snake = new Snake(this._engine);
         this._addKeyboardHandler(this._snake.keyboardHandler.bind(this._snake));
         this._snake.render();
