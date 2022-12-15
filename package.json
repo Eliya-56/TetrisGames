@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@eliya-56/canvas-engine": "^1.1.12"
+    "@eliya-56/canvas-engine": "^1.1.13"
   },
   "devDependencies": {
     "@babel/core": "^7.20.5",

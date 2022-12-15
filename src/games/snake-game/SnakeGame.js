@@ -58,7 +58,7 @@ export default class SnakeGame {
     }
 
     render(frameCount, msFromLastFrame) {
-        if (frameCount % 1 === 0) {
+        if (frameCount * 3 % 2 === 0) {
             this._calculate();
             this._snake.render();
             this._feedPoint.render();
